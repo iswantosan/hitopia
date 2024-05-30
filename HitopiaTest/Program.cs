@@ -37,6 +37,12 @@ namespace HitopiaTest
             expression = "{ ( ( [ ] ) [ ] ) [ ] }";
             Console.WriteLine(BalancedBracket.CheckBalancedBracket(expression));
             #endregion
+
+            #region HighestPalindrom
+            Console.WriteLine(HighestPalindrom.GetHighestPalindrom("3943", 1));
+            Console.WriteLine(HighestPalindrom.GetHighestPalindrom("3943", 1));
+            Console.WriteLine(HighestPalindrom.GetHighestPalindrom("3943", 1));
+            #endregion HighestPalindrom
         }
     }
 }
