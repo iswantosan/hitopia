@@ -1,0 +1,1 @@
+2.  Berapa ukuran kompleksitas kodinganmu? Kompleksitas adalah O(n) karena size dari stack akan linier terhadap jumlah karakter dalam string input.

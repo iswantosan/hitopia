@@ -2,7 +2,7 @@
 
 namespace HitopiaTest
 {
-    public class WeightedString
+    public static class WeightedString
     {
         private static Dictionary<string, int> CalculateWeights(string input)
         {
@@ -16,7 +16,7 @@ namespace HitopiaTest
                 {
                     ch = c.ToString();
                     weight = c - 'a' + 1;
-                    weights.Add(c.ToString(), weight);
+                    weights[c.ToString()] = weight;
                 }
                 else
                 {
